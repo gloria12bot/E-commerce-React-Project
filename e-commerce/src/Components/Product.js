@@ -9,7 +9,7 @@ function Product({product, onAddToCart}) {
     <Card style={{ maxWidth: "100%" }}>
       <CardMedia
         style={{ height: 0, paddingTop: "56.25%" }}
-        image={product.media.source}
+        image={product.image.url}
         title={product.name}
       />
       <CardContent>

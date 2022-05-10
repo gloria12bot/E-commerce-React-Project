@@ -9,7 +9,7 @@ function CartItems({ item, onUpdateCartQty, onRemoveFromCart }) {
   return (
     <Card className="cart-item">
       <CardMedia
-        image={item.media.source}
+        image={item.image.url}
         alt={item.name}
         style={{ height: 0, paddingTop: "80%" }}
       />

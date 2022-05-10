@@ -22,7 +22,7 @@ function Navigation({totalItems}) {
               </Badge>
             </IconButton>
           </div>
-           )};
+           )}
         </Toolbar>
         </AppBar>
     </div>
